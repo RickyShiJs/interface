@@ -4,6 +4,8 @@
 export enum SupportedChainId {
   MAINNET = 1,
   ROPSTEN = 3,
+  ETF = 513100,
+  ETHW = 10001,
   RINKEBY = 4,
   GOERLI = 5,
   KOVAN = 42,
@@ -23,6 +25,8 @@ export enum SupportedChainId {
 
 export const CHAIN_IDS_TO_NAMES = {
   [SupportedChainId.MAINNET]: 'mainnet',
+  [SupportedChainId.ETF]: 'etf',
+  [SupportedChainId.ETHW]: 'ethw',
   [SupportedChainId.ROPSTEN]: 'ropsten',
   [SupportedChainId.RINKEBY]: 'rinkeby',
   [SupportedChainId.GOERLI]: 'goerli',
@@ -82,6 +86,8 @@ export type SupportedTestnetChainId = typeof TESTNET_CHAIN_IDS[number]
  */
 export const L1_CHAIN_IDS = [
   SupportedChainId.MAINNET,
+  SupportedChainId.ETF,
+  SupportedChainId.ETHW,
   SupportedChainId.ROPSTEN,
   SupportedChainId.RINKEBY,
   SupportedChainId.GOERLI,

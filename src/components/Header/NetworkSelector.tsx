@@ -273,6 +273,8 @@ function Row({
 
 const NETWORK_SELECTOR_CHAINS = [
   SupportedChainId.MAINNET,
+  SupportedChainId.ETF,
+  SupportedChainId.ETHW,
   SupportedChainId.POLYGON,
   SupportedChainId.OPTIMISM,
   SupportedChainId.ARBITRUM_ONE,

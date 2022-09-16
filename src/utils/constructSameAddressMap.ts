@@ -2,6 +2,8 @@ import { SupportedChainId } from '../constants/chains'
 
 const DEFAULT_NETWORKS = [
   SupportedChainId.MAINNET,
+  SupportedChainId.ETF,
+  SupportedChainId.ETHW,
   SupportedChainId.ROPSTEN,
   SupportedChainId.RINKEBY,
   SupportedChainId.GOERLI,

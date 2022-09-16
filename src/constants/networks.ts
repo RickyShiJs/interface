@@ -98,6 +98,8 @@ export const RPC_URLS: { [key in SupportedChainId]: string[] } = {
     `https://mainnet.infura.io/v3/${INFURA_KEY}`,
     ...FALLBACK_URLS[SupportedChainId.MAINNET],
   ],
+  [SupportedChainId.ETF]: [`https://rpc.etherfair.org`],
+  [SupportedChainId.ETHW]: [`https://mainnet.ethereumpow.org`],
   [SupportedChainId.RINKEBY]: [
     `https://rinkeby.infura.io/v3/${INFURA_KEY}`,
     ...FALLBACK_URLS[SupportedChainId.RINKEBY],
